@@ -1,0 +1,17 @@
+.categories{
+    // width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem;
+    padding: 0 1rem;
+
+    .heading {
+        text-align: center;
+    }
+
+    .category-button {
+        font-size: large;
+    }
+}

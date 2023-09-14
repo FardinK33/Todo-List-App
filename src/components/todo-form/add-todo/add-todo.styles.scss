@@ -1,0 +1,38 @@
+.form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input {
+        height: 2.3rem;
+        border-radius: 4px;
+        border: none;
+        padding: 3px 6px;
+        font-size: medium;
+        background: rgba($color: white, $alpha: .4);
+        width: 70%;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    button {
+        margin: 10px;
+        height: 2rem;
+        width: 25%;
+        border: none;
+        background-color: aquamarine;
+        // font-weight: 600;
+    }
+
+}
+
+.edit-todo {
+    border-bottom: 1px solid white;
+    padding: .7rem;
+    input {
+        width: 75%;
+    }
+}

@@ -1,0 +1,44 @@
+.todo-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .bg-container {
+        width: 90%;
+        background-color: rgba($color: white, $alpha: .1);
+        background-clip: padding-box;
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        margin: 0 10px;
+        padding: 20px 10px;
+        
+    }
+
+    .main-heading{
+        font-size : 2.2rem;
+        text-align: center;
+        margin: 2.2rem;
+    }
+
+    .todos {
+        overflow-y: scroll;
+    }
+
+    .list-container {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .delete-button {
+        position: absolute;
+        bottom: 20px;
+        width: 3rem;
+        height: 3rem;
+        // color: rgb(242, 134, 170);
+        color: white;
+        border-radius: 50%;
+        padding: 10px;
+        background-color: rgb(23, 43, 77);
+    }
+}
